@@ -1,0 +1,46 @@
+.user_page {
+  background-color: white;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p {
+    color: $gray;
+    opacity: 0.6;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 17px;
+  }
+}
+
+.img-circle {
+  width: 100px;
+}
+
+.flat_description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.booking {
+  padding: 30px 100px;
+}
+
+.btn {
+  background-color: $red;
+}
+
+.book_form {
+  width: 350px;
+  background-color: $light-gray;
+  padding: 5px 10px;
+  border-radius: 3px;
+  h1 {
+    font-size: 25px;
+  }
+}
